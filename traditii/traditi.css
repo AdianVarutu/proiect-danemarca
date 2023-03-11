@@ -1,0 +1,20 @@
+.container_meniu
+{
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background: aquamarine;
+    box-shadow:  -4px 1px 33px 8px rgba(0,0,0,0.56); black ;
+}
+
+.container_meniu .meniu
+{
+    display: flex;
+    position: relative;
+    color:red
+}
+.container_meniu .meniu li{
+    flex: 1;
+    list-style-type: none;
+    font-size: 30px;
+}
