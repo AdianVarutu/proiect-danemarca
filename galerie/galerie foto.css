@@ -1,0 +1,54 @@
+.container_meniu
+{
+    width: 100%;
+    height: 80px;
+    background: aquamarine;
+    box-shadow:  -4px 1px 33px 8px rgba(0,0,0,0.56);
+    text-align:center;
+}
+
+.container_meniu .meniu
+{
+    display: flex;
+    position: relative;
+    color:red;
+}
+.container_meniu .meniu li{
+    flex: 1;
+    list-style-type: none;
+    font-size: 30px;
+}
+.container_meniu .meniu li a{
+    color:blueviolet;
+    text-decoration: none;
+    transition: color 0.03 ease;
+}
+
+.container_meniu .meniu li:hover a{
+    color:rgb(234, 192, 25);
+} 
+.container_meniu .meniu li:nth-child(4) a{
+    color:rgb(234, 192, 25);
+}
+
+.container_meniu .meniu .line{
+    position: absolute;
+    height: 5px;
+    width: 20%;
+    background: rgb(234, 192, 25);
+    left: 60%;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+.container_meniu .meniu li:nth-child(1):hover ~ .line{
+    left:0%;
+}
+.container_meniu .meniu li:nth-child(2):hover ~ .line{
+    left:20%;
+}
+.container_meniu .meniu li:nth-child(3):hover ~ .line{
+    left:40%;
+}
+.container_meniu .meniu li:nth-child(5):hover ~ .line{
+    left:80%;
+}
