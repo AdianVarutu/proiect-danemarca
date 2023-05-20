@@ -1,0 +1,23 @@
+{
+    "istorie" : [
+        {
+            "ani": 2000,
+            "example" : "aestea sunt cateva exemple",
+            "nume": "numele"
+        },
+
+        {
+            "ani": 3000,
+            "example" : "aestea sunt cateva exemple",
+            "nume": "numele"
+        },
+
+        {
+            "ani": 4000,
+            "example" : "aestea sunt cateva exemple",
+            "nume": "numele"
+        }
+
+    ]
+
+}
