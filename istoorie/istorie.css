@@ -1,0 +1,70 @@
+.container_meniu
+{
+    width: 100%;
+    height: 80px;
+    background:rgb(20, 78, 109);
+    box-shadow:  -4px 1px 33px 8px rgba(0,0,0,0.56);
+    text-align:center;
+}
+
+.container_meniu .meniu
+{
+    display: flex;
+    position: relative;
+    color:red;
+}
+.container_meniu .meniu li{
+    flex: 1;
+    list-style-type: none;
+    font-size: 30px;
+}
+.container_meniu .meniu li a{
+    color:rgb(9, 169, 172);
+    text-decoration: none;
+    transition: color 0.03 ease;
+}
+
+.container_meniu .meniu li:hover a{
+    color:rgb(234, 192, 25);
+} 
+.container_meniu .meniu li:nth-child(2) a{
+    color:rgb(234, 192, 25);
+}
+
+.container_meniu .meniu .line{
+    position: absolute;
+    height: 5px;
+    width: 20%;
+    background: rgb(234, 192, 25);
+    left: 20%;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+.container_meniu .meniu li:nth-child(1):hover ~ .line{
+    left:0%;
+}
+.container_meniu .meniu li:nth-child(3):hover ~ .line{
+    left:40%;
+}
+.container_meniu .meniu li:nth-child(4):hover ~ .line{
+    left:60%;
+}
+.container_meniu .meniu li:nth-child(5):hover ~ .line{
+    left:80%;
+}
+.jumbotron{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(
+        rgba(0,0,250,0.25),
+        rgba(250,180,125,0.45)
+    ),
+    url(https://source.unsplash.com/1500x950/?Danemark);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+.jumbotron h1{
+    font-weight: 100;
+    text-align: center;
+}
